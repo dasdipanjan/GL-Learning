@@ -24,14 +24,15 @@ public class Main {
 	 * This method is the starting point of the program. This method is invoked by main thread created by JVM.
 	 * 
 	 * @param args this variable is responsible to carry command line arguments.
+	 * @throws  
 	 */
 	public static void main(String[] args) {
 
 		SuperDepartment superDepartment = null;
 		// Creating object of AdminDepartment, HrDepartment and TechDepartment class.
-		AdminDepartment adminDepartment = new AdminDepartment();
 		HrDepartment hrDepartment = new HrDepartment();
 		TechDepartment techDepartment = new TechDepartment();
+		AdminDepartment adminDepartment = new AdminDepartment();
 		
 		System.out.println();
 		
@@ -65,7 +66,7 @@ public class Main {
 		System.out.println(techDepartment.getTechStackInformation());
 		//Up casting - Using super class reference variable.
 		superDepartment = techDepartment;
-		System.out.println(techDepartment.isTodayAHoliday());
+		System.out.println(superDepartment.isTodayAHoliday());
 		// Displaying all functionality of TechDepartment -End.
 	}
 

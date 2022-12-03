@@ -10,6 +10,9 @@ package com.glearning.department;
  */
 public class AdminDepartment extends SuperDepartment {
 
+	/**
+	 * Default constructor of AdminDepartment.
+	 */
 	public AdminDepartment() {
 		super();
 	}

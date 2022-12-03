@@ -3,13 +3,13 @@ package com.glearning.department;
 /**
  * This class contains functionality of super departments.
  * 
- * @author Dipanjan Das
+ * @author Amit, Arka, Latika, Dipanjan
  * @version 1.0
  * @since 02-12-2022
  *
  */
-public class SuperDepartment {
-
+public class SuperDepartment extends Object {
+	
 	public SuperDepartment() {
 		super();
 	}

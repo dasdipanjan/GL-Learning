@@ -11,7 +11,7 @@ package com.glearning.department;
 public class HrDepartment extends SuperDepartment {
 
 	public HrDepartment() {
-
+		super();
 	}
 
 	/**
